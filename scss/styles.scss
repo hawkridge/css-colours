@@ -2,7 +2,7 @@
 @import "css-colors";
 
 @function text-color($color) {
-  @if (lightness($color) > 45) {
+  @if (lightness($color) > 50) {
     @return #000000; // Lighter backgorund, return dark color
   } @else {
     @return #ffffff; // Darker background, return light color
@@ -32,7 +32,7 @@ header {
 
 footer {
     text-align: right;
-    padding: 1rem;
+    padding: 2rem 1rem 1rem;
 }
 
 h1 {
@@ -46,6 +46,11 @@ p {
     line-height: 1.5;
 }
 
+.o-svgicon {
+  height: 1rem;
+  width: 1rem;
+}
+
 .c-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -53,13 +58,25 @@ p {
 }
 
 .c-colour {
-  height: 170px;
-  flex: 0 0 170px;
+  height: 16ch;
+  flex: 0 0 16ch;
   text-align: center;
-  padding-top: 37px;
+  padding-top: 4ch;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.c-footer-left {
+  float: left;
+  > * {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1rem;
+  }
+}
+
+.c-footer-right {
+  float: right;
+}
 @each $swatch, $colour in $css-colours {
   .#{$swatch} {
     background: $colour;

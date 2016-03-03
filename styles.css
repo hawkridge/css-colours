@@ -20,7 +20,7 @@ header {
 
 footer {
   text-align: right;
-  padding: 1rem; }
+  padding: 2rem 1rem 1rem; }
 
 h1 {
   margin-bottom: 0.5em;
@@ -30,6 +30,10 @@ p {
   margin: 0;
   margin-bottom: 0.5em;
   line-height: 1.5; }
+
+.o-svgicon {
+  height: 1rem;
+  width: 1rem; }
 
 .c-wrapper {
   display: -webkit-box;
@@ -45,14 +49,24 @@ p {
           justify-content: center; }
 
 .c-colour {
-  height: 170px;
+  height: 16ch;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 170px;
-      -ms-flex: 0 0 170px;
-          flex: 0 0 170px;
+  -webkit-flex: 0 0 16ch;
+      -ms-flex: 0 0 16ch;
+          flex: 0 0 16ch;
   text-align: center;
-  padding-top: 37px;
+  padding-top: 4ch;
   border: 1px solid rgba(0, 0, 0, 0.1); }
+
+.c-footer-left {
+  float: left; }
+  .c-footer-left > * {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1rem; }
+
+.c-footer-right {
+  float: right; }
 
 .black {
   background: #000000;
@@ -100,7 +114,7 @@ p {
 
 .mediumspringgreen {
   background: #00FA9A;
-  color: #000000; }
+  color: #ffffff; }
 
 .lime {
   background: #00FF00;
@@ -152,7 +166,7 @@ p {
 
 .mediumseagreen {
   background: #3CB371;
-  color: #000000; }
+  color: #ffffff; }
 
 .turquoise {
   background: #40E0D0;
@@ -164,7 +178,7 @@ p {
 
 .steelblue {
   background: #4682B4;
-  color: #000000; }
+  color: #ffffff; }
 
 .darkslateblue {
   background: #483D8B;
@@ -232,7 +246,7 @@ p {
 
 .lawngreen {
   background: #7CFC00;
-  color: #000000; }
+  color: #ffffff; }
 
 .chartreuse {
   background: #7FFF00;
@@ -308,7 +322,7 @@ p {
 
 .darkorchid {
   background: #9932CC;
-  color: #000000; }
+  color: #ffffff; }
 
 .yellowgreen {
   background: #9ACD32;
@@ -388,7 +402,7 @@ p {
 
 .chocolate {
   background: #D2691E;
-  color: #000000; }
+  color: #ffffff; }
 
 .tan {
   background: #D2B48C;
@@ -412,7 +426,7 @@ p {
 
 .goldenrod {
   background: #DAA520;
-  color: #000000; }
+  color: #ffffff; }
 
 .palevioletred {
   background: #DB7093;
@@ -420,7 +434,7 @@ p {
 
 .crimson {
   background: #DC143C;
-  color: #000000; }
+  color: #ffffff; }
 
 .gainsboro {
   background: #DCDCDC;
