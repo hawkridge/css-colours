@@ -1,0 +1,590 @@
+$css-colours: (
+  "black": (
+    hexadecimal: #000000,
+    rgb: rgba(0,0,0,1)
+  ),
+  "navy": (
+    hexadecimal: #000080,
+    rgb: rgba(0,0,128,1)
+  ),
+  "darkblue": (
+    hexadecimal: #00008B,
+    rgb: rgba(0,0,139,1)
+  ),
+  "mediumblue": (
+    hexadecimal: #0000CD,
+    rgb: rgba(0,0,205,1)
+  ),
+  "blue": (
+    hexadecimal: #0000FF,
+    rgb: rgba(0,0,255,1)
+  ),
+  "darkgreen": (
+    hexadecimal: #006400,
+    rgb: rgba(0,100,0,1)
+  ),
+  "green": (
+    hexadecimal: #008000,
+    rgb: rgba(0,128,0,1)
+  ),
+  "teal": (
+    hexadecimal: #008080,
+    rgb: rgba(0,128,128,1)
+  ),
+  "darkcyan": (
+    hexadecimal: #008B8B,
+    rgb: rgba(0,139,139,1)
+  ),
+  "deepskyblue": (
+    hexadecimal: #00BFFF,
+    rgb: rgba(0,191,255,1)
+  ),
+  "darkturquoise": (
+    hexadecimal: #00CED1,
+    rgb: rgba(0,206,209,1)
+  ),
+  "mediumspringgreen": (
+    hexadecimal: #00FA9A,
+    rgb: rgba(0,250,154,1)
+  ),
+  "lime": (
+    hexadecimal: #00FF00,
+    rgb: rgba(0,255,0,1)
+  ),
+  "springgreen": (
+    hexadecimal: #00FF7F,
+    rgb: rgba(0,255,127,1)
+  ),
+  "aqua": (
+    hexadecimal: #00FFFF,
+    rgb: rgba(0,255,255,1)
+  ),
+  "cyan": (
+    hexadecimal: #00FFFF,
+    rgb: rgba(0,255,255,1)
+  ),
+  "midnightblue": (
+    hexadecimal: #191970,
+    rgb: rgba(25,25,112,1)
+  ),
+  "dodgerblue": (
+    hexadecimal: #1E90FF,
+    rgb: rgba(30,144,255,1)
+  ),
+  "lightseagreen": (
+    hexadecimal: #20B2AA,
+    rgb: rgba(32,178,170,1)
+  ),
+  "forestgreen": (
+    hexadecimal: #228B22,
+    rgb: rgba(34,139,34,1)
+  ),
+  "seagreen": (
+    hexadecimal: #2E8B57,
+    rgb: rgba(46,139,87,1)
+  ),
+  "darkslategray": (
+    hexadecimal: #2F4F4F,
+    rgb: rgba(47,79,79,1)
+  ),
+  "darkslategrey": (
+    hexadecimal: #2F4F4F,
+    rgb: rgba(47,79,79,1)
+  ),
+  "limegreen": (
+    hexadecimal: #32CD32,
+    rgb: rgba(50,205,50,1)
+  ),
+  "mediumseagreen": (
+    hexadecimal: #3CB371,
+    rgb: rgba(60,179,113,1)
+  ),
+  "turquoise": (
+    hexadecimal: #40E0D0,
+    rgb: rgba(64,224,208,1)
+  ),
+  "royalblue": (
+    hexadecimal: #4169E1,
+    rgb: rgba(65,105,225,1)
+  ),
+  "steelblue": (
+    hexadecimal: #4682B4,
+    rgb: rgba(70,130,180,1)
+  ),
+  "darkslateblue": (
+    hexadecimal: #483D8B,
+    rgb: rgba(72,61,139,1)
+  ),
+  "mediumturquoise": (
+    hexadecimal: #48D1CC,
+    rgb: rgba(72,209,204,1)
+  ),
+  "indigo": (
+    hexadecimal: #4B0082,
+    rgb: rgba(75,0,130,1)
+  ),
+  "darkolivegreen": (
+    hexadecimal: #556B2F,
+    rgb: rgba(85,107,47,1)
+  ),
+  "cadetblue": (
+    hexadecimal: #5F9EA0,
+    rgb: rgba(95,158,160,1)
+  ),
+  "cornflowerblue": (
+    hexadecimal: #6495ED,
+    rgb: rgba(100,149,237,1)
+  ),
+  "mediumaquamarine": (
+    hexadecimal: #66CDAA,
+    rgb: rgba(102,205,170,1)
+  ),
+  "dimgray": (
+    hexadecimal: #696969,
+    rgb: rgba(105,105,105,1)
+  ),
+  "dimgrey": (
+    hexadecimal: #696969,
+    rgb: rgba(105,105,105,1)
+  ),
+  "slateblue": (
+    hexadecimal: #6A5ACD,
+    rgb: rgba(106,90,205,1)
+  ),
+  "olivedrab": (
+    hexadecimal: #6B8E23,
+    rgb: rgba(107,142,35,1)
+  ),
+  "slategray": (
+    hexadecimal: #708090,
+    rgb: rgba(112,128,144,1)
+  ),
+  "slategrey": (
+    hexadecimal: #708090,
+    rgb: rgba(112,128,144,1)
+  ),
+  "lightslategray": (
+    hexadecimal: #778899,
+    rgb: rgba(119,136,153,1)
+  ),
+  "lightslategrey": (
+    hexadecimal: #778899,
+    rgb: rgba(119,136,153,1)
+  ),
+  "mediumslateblue": (
+    hexadecimal: #7B68EE,
+    rgb: rgba(123,104,238,1)
+  ),
+  "lawngreen": (
+    hexadecimal: #7CFC00,
+    rgb: rgba(124,252,0,1)
+  ),
+  "chartreuse": (
+    hexadecimal: #7FFF00,
+    rgb: rgba(127,255,0,1)
+  ),
+  "aquamarine": (
+    hexadecimal: #7FFFD4,
+    rgb: rgba(127,255,212,1)
+  ),
+  "maroon": (
+    hexadecimal: #800000,
+    rgb: rgba(128,0,0,1)
+  ),
+  "purple": (
+    hexadecimal: #800080,
+    rgb: rgba(128,0,128,1)
+  ),
+  "olive": (
+    hexadecimal: #808000,
+    rgb: rgba(128,128,0,1)
+  ),
+  "gray": (
+    hexadecimal: #808080,
+    rgb: rgba(128,128,128,1)
+  ),
+  "grey": (
+    hexadecimal: #808080,
+    rgb: rgba(128,128,128,1)
+  ),
+  "skyblue": (
+    hexadecimal: #87CEEB,
+    rgb: rgba(135,206,235,1)
+  ),
+  "lightskyblue": (
+    hexadecimal: #87CEFA,
+    rgb: rgba(135,206,250,1)
+  ),
+  "blueviolet": (
+    hexadecimal: #8A2BE2,
+    rgb: rgba(138,43,226,1)
+  ),
+  "darkred": (
+    hexadecimal: #8B0000,
+    rgb: rgba(139,0,0,1)
+  ),
+  "darkmagenta": (
+    hexadecimal: #8B008B,
+    rgb: rgba(139,0,139,1)
+  ),
+  "saddlebrown": (
+    hexadecimal: #8B4513,
+    rgb: rgba(139,69,19,1)
+  ),
+  "darkseagreen": (
+    hexadecimal: #8FBC8F,
+    rgb: rgba(143,188,143,1)
+  ),
+  "lightgreen": (
+    hexadecimal: #90EE90,
+    rgb: rgba(144,238,144,1)
+  ),
+  "mediumpurple": (
+    hexadecimal: #9370DB,
+    rgb: rgba(147,112,219,1)
+  ),
+  "darkviolet": (
+    hexadecimal: #9400D3,
+    rgb: rgba(148,0,211,1)
+  ),
+  "palegreen": (
+    hexadecimal: #98FB98,
+    rgb: rgba(152,251,152,1)
+  ),
+  "darkorchid": (
+    hexadecimal: #9932CC,
+    rgb: rgba(153,50,204,1)
+  ),
+  "yellowgreen": (
+    hexadecimal: #9ACD32,
+    rgb: rgba(154,205,50,1)
+  ),
+  "sienna": (
+    hexadecimal: #A0522D,
+    rgb: rgba(160,82,45,1)
+  ),
+  "brown": (
+    hexadecimal: #A52A2A,
+    rgb: rgba(165,42,42,1)
+  ),
+  "darkgray": (
+    hexadecimal: #A9A9A9,
+    rgb: rgba(169,169,169,1)
+  ),
+  "darkgrey": (
+    hexadecimal: #A9A9A9,
+    rgb: rgba(169,169,169,1)
+  ),
+  "lightblue": (
+    hexadecimal: #ADD8E6,
+    rgb: rgba(173,216,230,1)
+  ),
+  "greenyellow": (
+    hexadecimal: #ADFF2F,
+    rgb: rgba(173,255,47,1)
+  ),
+  "paleturquoise": (
+    hexadecimal: #AFEEEE,
+    rgb: rgba(175,238,238,1)
+  ),
+  "lightsteelblue": (
+    hexadecimal: #B0C4DE,
+    rgb: rgba(176,196,222,1)
+  ),
+  "powderblue": (
+    hexadecimal: #B0E0E6,
+    rgb: rgba(176,224,230,1)
+  ),
+  "firebrick": (
+    hexadecimal: #B22222,
+    rgb: rgba(178,34,34,1)
+  ),
+  "darkgoldenrod": (
+    hexadecimal: #B8860B,
+    rgb: rgba(184,134,11,1)
+  ),
+  "mediumorchid": (
+    hexadecimal: #BA55D3,
+    rgb: rgba(186,85,211,1)
+  ),
+  "rosybrown": (
+    hexadecimal: #BC8F8F,
+    rgb: rgba(188,143,143,1)
+  ),
+  "darkkhaki": (
+    hexadecimal: #BDB76B,
+    rgb: rgba(189,183,107,1)
+  ),
+  "silver": (
+    hexadecimal: #C0C0C0,
+    rgb: rgba(192,192,192,1)
+  ),
+  "mediumvioletred": (
+    hexadecimal: #C71585,
+    rgb: rgba(199,21,133,1)
+  ),
+  "indianred": (
+    hexadecimal: #CD5C5C,
+    rgb: rgba(205,92,92,1)
+  ),
+  "peru": (
+    hexadecimal: #CD853F,
+    rgb: rgba(205,133,63,1)
+  ),
+  "chocolate": (
+    hexadecimal: #D2691E,
+    rgb: rgba(210,105,30,1)
+  ),
+  "tan": (
+    hexadecimal: #D2B48C,
+    rgb: rgba(210,180,140,1)
+  ),
+  "lightgray": (
+    hexadecimal: #D3D3D3,
+    rgb: rgba(211,211,211,1)
+  ),
+  "lightgrey": (
+    hexadecimal: #D3D3D3,
+    rgb: rgba(211,211,211,1)
+  ),
+  "thistle": (
+    hexadecimal: #D8BFD8,
+    rgb: rgba(216,191,216,1)
+  ),
+  "orchid": (
+    hexadecimal: #DA70D6,
+    rgb: rgba(218,112,214,1)
+  ),
+  "goldenrod": (
+    hexadecimal: #DAA520,
+    rgb: rgba(218,165,32,1)
+  ),
+  "palevioletred": (
+    hexadecimal: #DB7093,
+    rgb: rgba(219,112,147,1)
+  ),
+  "crimson": (
+    hexadecimal: #DC143C,
+    rgb: rgba(220,20,60,1)
+  ),
+  "gainsboro": (
+    hexadecimal: #DCDCDC,
+    rgb: rgba(220,220,220,1)
+  ),
+  "plum": (
+    hexadecimal: #DDA0DD,
+    rgb: rgba(221,160,221,1)
+  ),
+  "burlywood": (
+    hexadecimal: #DEB887,
+    rgb: rgba(222,184,135,1)
+  ),
+  "lightcyan": (
+    hexadecimal: #E0FFFF,
+    rgb: rgba(224,255,255,1)
+  ),
+  "lavender": (
+    hexadecimal: #E6E6FA,
+    rgb: rgba(230,230,250,1)
+  ),
+  "darksalmon": (
+    hexadecimal: #E9967A,
+    rgb: rgba(233,150,122,1)
+  ),
+  "violet": (
+    hexadecimal: #EE82EE,
+    rgb: rgba(238,130,238,1)
+  ),
+  "palegoldenrod": (
+    hexadecimal: #EEE8AA,
+    rgb: rgba(238,232,170,1)
+  ),
+  "lightcoral": (
+    hexadecimal: #F08080,
+    rgb: rgba(240,128,128,1)
+  ),
+  "khaki": (
+    hexadecimal: #F0E68C,
+    rgb: rgba(240,230,140,1)
+  ),
+  "aliceblue": (
+    hexadecimal: #F0F8FF,
+    rgb: rgba(240,248,255,1)
+  ),
+  "honeydew": (
+    hexadecimal: #F0FFF0,
+    rgb: rgba(240,255,240,1)
+  ),
+  "azure": (
+    hexadecimal: #F0FFFF,
+    rgb: rgba(240,255,255,1)
+  ),
+  "sandybrown": (
+    hexadecimal: #F4A460,
+    rgb: rgba(244,164,96,1)
+  ),
+  "wheat": (
+    hexadecimal: #F5DEB3,
+    rgb: rgba(245,222,179,1)
+  ),
+  "beige": (
+    hexadecimal: #F5F5DC,
+    rgb: rgba(245,245,220,1)
+  ),
+  "whitesmoke": (
+    hexadecimal: #F5F5F5,
+    rgb: rgba(245,245,245,1)
+  ),
+  "mintcream": (
+    hexadecimal: #F5FFFA,
+    rgb: rgba(245,255,250,1)
+  ),
+  "ghostwhite": (
+    hexadecimal: #F8F8FF,
+    rgb: rgba(248,248,255,1)
+  ),
+  "salmon": (
+    hexadecimal: #FA8072,
+    rgb: rgba(250,128,114,1)
+  ),
+  "antiquewhite": (
+    hexadecimal: #FAEBD7,
+    rgb: rgba(250,235,215,1)
+  ),
+  "linen": (
+    hexadecimal: #FAF0E6,
+    rgb: rgba(250,240,230,1)
+  ),
+  "lightgoldenrodyellow": (
+    hexadecimal: #FAFAD2,
+    rgb: rgba(250,250,210,1)
+  ),
+  "oldlace": (
+    hexadecimal: #FDF5E6,
+    rgb: rgba(253,245,230,1)
+  ),
+  "red": (
+    hexadecimal: #FF0000,
+    rgb: rgba(255,0,0,1)
+  ),
+  "fuchsia": (
+    hexadecimal: #FF00FF,
+    rgb: rgba(255,0,255,1)
+  ),
+  "magenta": (
+    hexadecimal: #FF00FF,
+    rgb: rgba(255,0,255,1)
+  ),
+  "deeppink": (
+    hexadecimal: #FF1493,
+    rgb: rgba(255,20,147,1)
+  ),
+  "orangered": (
+    hexadecimal: #FF4500,
+    rgb: rgba(255,69,0,1)
+  ),
+  "tomato": (
+    hexadecimal: #FF6347,
+    rgb: rgba(255,99,71,1)
+  ),
+  "hotpink": (
+    hexadecimal: #FF69B4,
+    rgb: rgba(255,105,180,1)
+  ),
+  "coral": (
+    hexadecimal: #FF7F50,
+    rgb: rgba(255,127,80,1)
+  ),
+  "darkorange": (
+    hexadecimal: #FF8C00,
+    rgb: rgba(255,140,0,1)
+  ),
+  "lightsalmon": (
+    hexadecimal: #FFA07A,
+    rgb: rgba(255,160,122,1)
+  ),
+  "orange": (
+    hexadecimal: #FFA500,
+    rgb: rgba(255,165,0,1)
+  ),
+  "lightpink": (
+    hexadecimal: #FFB6C1,
+    rgb: rgba(255,182,193,1)
+  ),
+  "pink": (
+    hexadecimal: #FFC0CB,
+    rgb: rgba(255,192,203,1)
+  ),
+  "gold": (
+    hexadecimal: #FFD700,
+    rgb: rgba(255,215,0,1)
+  ),
+  "peachpuff": (
+    hexadecimal: #FFDAB9,
+    rgb: rgba(255,218,185,1)
+  ),
+  "navajowhite": (
+    hexadecimal: #FFDEAD,
+    rgb: rgba(255,222,173,1)
+  ),
+  "moccasin": (
+    hexadecimal: #FFE4B5,
+    rgb: rgba(255,228,181,1)
+  ),
+  "bisque": (
+    hexadecimal: #FFE4C4,
+    rgb: rgba(255,228,196,1)
+  ),
+  "mistyrose": (
+    hexadecimal: #FFE4E1,
+    rgb: rgba(255,228,225,1)
+  ),
+  "blanchedalmond": (
+    hexadecimal: #FFEBCD,
+    rgb: rgba(255,235,205,1)
+  ),
+  "papayawhip": (
+    hexadecimal: #FFEFD5,
+    rgb: rgba(255,239,213,1)
+  ),
+  "lavenderblush": (
+    hexadecimal: #FFF0F5,
+    rgb: rgba(255,240,245,1)
+  ),
+  "seashell": (
+    hexadecimal: #FFF5EE,
+    rgb: rgba(255,245,238,1)
+  ),
+  "cornsilk": (
+    hexadecimal: #FFF8DC,
+    rgb: rgba(255,248,220,1)
+  ),
+  "lemonchiffon": (
+    hexadecimal: #FFFACD,
+    rgb: rgba(255,250,205,1)
+  ),
+  "floralwhite": (
+    hexadecimal: #FFFAF0,
+    rgb: rgba(255,250,240,1)
+  ),
+  "snow": (
+    hexadecimal: #FFFAFA,
+    rgb: rgba(255,250,250,1)
+  ),
+  "yellow": (
+    hexadecimal: #FFFF00,
+    rgb: rgba(255,255,0,1)
+  ),
+  "lightyellow": (
+    hexadecimal: #FFFFE0,
+    rgb: rgba(255,255,224,1)
+  ),
+  "ivory": (
+    hexadecimal: #FFFFF0,
+    rgb: rgba(255,255,240,1)
+  ),
+  "white": (
+    hexadecimal: #FFFFFF,
+    rgb: rgba(255,255,255,1)
+  ),
+);

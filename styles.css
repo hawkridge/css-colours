@@ -1,0 +1,643 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+body {
+  margin: 0;
+  font: 16px/1 sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Libre Baskerville", Times, serif; }
+
+header {
+  text-align: center;
+  padding: 3rem; }
+
+footer {
+  text-align: right;
+  padding: 1rem; }
+
+h1 {
+  margin-bottom: 0.5em;
+  line-height: 1.3; }
+
+p {
+  margin: 0;
+  margin-bottom: 0.5em;
+  line-height: 1.5; }
+
+.c-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.c-colour {
+  height: 170px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 170px;
+      -ms-flex: 0 0 170px;
+          flex: 0 0 170px;
+  text-align: center;
+  padding-top: 37px;
+  border: 1px solid rgba(0, 0, 0, 0.1); }
+
+.black {
+  background: #000000;
+  color: #ffffff; }
+
+.navy {
+  background: #000080;
+  color: #ffffff; }
+
+.darkblue {
+  background: #00008B;
+  color: #ffffff; }
+
+.mediumblue {
+  background: #0000CD;
+  color: #ffffff; }
+
+.blue {
+  background: #0000FF;
+  color: #000000; }
+
+.darkgreen {
+  background: #006400;
+  color: #ffffff; }
+
+.green {
+  background: #008000;
+  color: #ffffff; }
+
+.teal {
+  background: #008080;
+  color: #ffffff; }
+
+.darkcyan {
+  background: #008B8B;
+  color: #ffffff; }
+
+.deepskyblue {
+  background: #00BFFF;
+  color: #000000; }
+
+.darkturquoise {
+  background: #00CED1;
+  color: #ffffff; }
+
+.mediumspringgreen {
+  background: #00FA9A;
+  color: #000000; }
+
+.lime {
+  background: #00FF00;
+  color: #000000; }
+
+.springgreen {
+  background: #00FF7F;
+  color: #000000; }
+
+.aqua {
+  background: #00FFFF;
+  color: #000000; }
+
+.cyan {
+  background: #00FFFF;
+  color: #000000; }
+
+.midnightblue {
+  background: #191970;
+  color: #ffffff; }
+
+.dodgerblue {
+  background: #1E90FF;
+  color: #000000; }
+
+.lightseagreen {
+  background: #20B2AA;
+  color: #ffffff; }
+
+.forestgreen {
+  background: #228B22;
+  color: #ffffff; }
+
+.seagreen {
+  background: #2E8B57;
+  color: #ffffff; }
+
+.darkslategray {
+  background: #2F4F4F;
+  color: #ffffff; }
+
+.darkslategrey {
+  background: #2F4F4F;
+  color: #ffffff; }
+
+.limegreen {
+  background: #32CD32;
+  color: #000000; }
+
+.mediumseagreen {
+  background: #3CB371;
+  color: #000000; }
+
+.turquoise {
+  background: #40E0D0;
+  color: #000000; }
+
+.royalblue {
+  background: #4169E1;
+  color: #000000; }
+
+.steelblue {
+  background: #4682B4;
+  color: #000000; }
+
+.darkslateblue {
+  background: #483D8B;
+  color: #ffffff; }
+
+.mediumturquoise {
+  background: #48D1CC;
+  color: #000000; }
+
+.indigo {
+  background: #4B0082;
+  color: #ffffff; }
+
+.darkolivegreen {
+  background: #556B2F;
+  color: #ffffff; }
+
+.cadetblue {
+  background: #5F9EA0;
+  color: #000000; }
+
+.cornflowerblue {
+  background: #6495ED;
+  color: #000000; }
+
+.mediumaquamarine {
+  background: #66CDAA;
+  color: #000000; }
+
+.dimgray {
+  background: #696969;
+  color: #ffffff; }
+
+.dimgrey {
+  background: #696969;
+  color: #ffffff; }
+
+.slateblue {
+  background: #6A5ACD;
+  color: #000000; }
+
+.olivedrab {
+  background: #6B8E23;
+  color: #ffffff; }
+
+.slategray {
+  background: #708090;
+  color: #000000; }
+
+.slategrey {
+  background: #708090;
+  color: #000000; }
+
+.lightslategray {
+  background: #778899;
+  color: #000000; }
+
+.lightslategrey {
+  background: #778899;
+  color: #000000; }
+
+.mediumslateblue {
+  background: #7B68EE;
+  color: #000000; }
+
+.lawngreen {
+  background: #7CFC00;
+  color: #000000; }
+
+.chartreuse {
+  background: #7FFF00;
+  color: #000000; }
+
+.aquamarine {
+  background: #7FFFD4;
+  color: #000000; }
+
+.maroon {
+  background: #800000;
+  color: #ffffff; }
+
+.purple {
+  background: #800080;
+  color: #ffffff; }
+
+.olive {
+  background: #808000;
+  color: #ffffff; }
+
+.gray {
+  background: #808080;
+  color: #000000; }
+
+.grey {
+  background: #808080;
+  color: #000000; }
+
+.skyblue {
+  background: #87CEEB;
+  color: #000000; }
+
+.lightskyblue {
+  background: #87CEFA;
+  color: #000000; }
+
+.blueviolet {
+  background: #8A2BE2;
+  color: #000000; }
+
+.darkred {
+  background: #8B0000;
+  color: #ffffff; }
+
+.darkmagenta {
+  background: #8B008B;
+  color: #ffffff; }
+
+.saddlebrown {
+  background: #8B4513;
+  color: #ffffff; }
+
+.darkseagreen {
+  background: #8FBC8F;
+  color: #000000; }
+
+.lightgreen {
+  background: #90EE90;
+  color: #000000; }
+
+.mediumpurple {
+  background: #9370DB;
+  color: #000000; }
+
+.darkviolet {
+  background: #9400D3;
+  color: #ffffff; }
+
+.palegreen {
+  background: #98FB98;
+  color: #000000; }
+
+.darkorchid {
+  background: #9932CC;
+  color: #000000; }
+
+.yellowgreen {
+  background: #9ACD32;
+  color: #000000; }
+
+.sienna {
+  background: #A0522D;
+  color: #ffffff; }
+
+.brown {
+  background: #A52A2A;
+  color: #ffffff; }
+
+.darkgray {
+  background: #A9A9A9;
+  color: #000000; }
+
+.darkgrey {
+  background: #A9A9A9;
+  color: #000000; }
+
+.lightblue {
+  background: #ADD8E6;
+  color: #000000; }
+
+.greenyellow {
+  background: #ADFF2F;
+  color: #000000; }
+
+.paleturquoise {
+  background: #AFEEEE;
+  color: #000000; }
+
+.lightsteelblue {
+  background: #B0C4DE;
+  color: #000000; }
+
+.powderblue {
+  background: #B0E0E6;
+  color: #000000; }
+
+.firebrick {
+  background: #B22222;
+  color: #ffffff; }
+
+.darkgoldenrod {
+  background: #B8860B;
+  color: #ffffff; }
+
+.mediumorchid {
+  background: #BA55D3;
+  color: #000000; }
+
+.rosybrown {
+  background: #BC8F8F;
+  color: #000000; }
+
+.darkkhaki {
+  background: #BDB76B;
+  color: #000000; }
+
+.silver {
+  background: #C0C0C0;
+  color: #000000; }
+
+.mediumvioletred {
+  background: #C71585;
+  color: #ffffff; }
+
+.indianred {
+  background: #CD5C5C;
+  color: #000000; }
+
+.peru {
+  background: #CD853F;
+  color: #000000; }
+
+.chocolate {
+  background: #D2691E;
+  color: #000000; }
+
+.tan {
+  background: #D2B48C;
+  color: #000000; }
+
+.lightgray {
+  background: #D3D3D3;
+  color: #000000; }
+
+.lightgrey {
+  background: #D3D3D3;
+  color: #000000; }
+
+.thistle {
+  background: #D8BFD8;
+  color: #000000; }
+
+.orchid {
+  background: #DA70D6;
+  color: #000000; }
+
+.goldenrod {
+  background: #DAA520;
+  color: #000000; }
+
+.palevioletred {
+  background: #DB7093;
+  color: #000000; }
+
+.crimson {
+  background: #DC143C;
+  color: #000000; }
+
+.gainsboro {
+  background: #DCDCDC;
+  color: #000000; }
+
+.plum {
+  background: #DDA0DD;
+  color: #000000; }
+
+.burlywood {
+  background: #DEB887;
+  color: #000000; }
+
+.lightcyan {
+  background: #E0FFFF;
+  color: #000000; }
+
+.lavender {
+  background: #E6E6FA;
+  color: #000000; }
+
+.darksalmon {
+  background: #E9967A;
+  color: #000000; }
+
+.violet {
+  background: #EE82EE;
+  color: #000000; }
+
+.palegoldenrod {
+  background: #EEE8AA;
+  color: #000000; }
+
+.lightcoral {
+  background: #F08080;
+  color: #000000; }
+
+.khaki {
+  background: #F0E68C;
+  color: #000000; }
+
+.aliceblue {
+  background: #F0F8FF;
+  color: #000000; }
+
+.honeydew {
+  background: #F0FFF0;
+  color: #000000; }
+
+.azure {
+  background: #F0FFFF;
+  color: #000000; }
+
+.sandybrown {
+  background: #F4A460;
+  color: #000000; }
+
+.wheat {
+  background: #F5DEB3;
+  color: #000000; }
+
+.beige {
+  background: #F5F5DC;
+  color: #000000; }
+
+.whitesmoke {
+  background: #F5F5F5;
+  color: #000000; }
+
+.mintcream {
+  background: #F5FFFA;
+  color: #000000; }
+
+.ghostwhite {
+  background: #F8F8FF;
+  color: #000000; }
+
+.salmon {
+  background: #FA8072;
+  color: #000000; }
+
+.antiquewhite {
+  background: #FAEBD7;
+  color: #000000; }
+
+.linen {
+  background: #FAF0E6;
+  color: #000000; }
+
+.lightgoldenrodyellow {
+  background: #FAFAD2;
+  color: #000000; }
+
+.oldlace {
+  background: #FDF5E6;
+  color: #000000; }
+
+.red {
+  background: #FF0000;
+  color: #000000; }
+
+.fuchsia {
+  background: #FF00FF;
+  color: #000000; }
+
+.magenta {
+  background: #FF00FF;
+  color: #000000; }
+
+.deeppink {
+  background: #FF1493;
+  color: #000000; }
+
+.orangered {
+  background: #FF4500;
+  color: #000000; }
+
+.tomato {
+  background: #FF6347;
+  color: #000000; }
+
+.hotpink {
+  background: #FF69B4;
+  color: #000000; }
+
+.coral {
+  background: #FF7F50;
+  color: #000000; }
+
+.darkorange {
+  background: #FF8C00;
+  color: #000000; }
+
+.lightsalmon {
+  background: #FFA07A;
+  color: #000000; }
+
+.orange {
+  background: #FFA500;
+  color: #000000; }
+
+.lightpink {
+  background: #FFB6C1;
+  color: #000000; }
+
+.pink {
+  background: #FFC0CB;
+  color: #000000; }
+
+.gold {
+  background: #FFD700;
+  color: #000000; }
+
+.peachpuff {
+  background: #FFDAB9;
+  color: #000000; }
+
+.navajowhite {
+  background: #FFDEAD;
+  color: #000000; }
+
+.moccasin {
+  background: #FFE4B5;
+  color: #000000; }
+
+.bisque {
+  background: #FFE4C4;
+  color: #000000; }
+
+.mistyrose {
+  background: #FFE4E1;
+  color: #000000; }
+
+.blanchedalmond {
+  background: #FFEBCD;
+  color: #000000; }
+
+.papayawhip {
+  background: #FFEFD5;
+  color: #000000; }
+
+.lavenderblush {
+  background: #FFF0F5;
+  color: #000000; }
+
+.seashell {
+  background: #FFF5EE;
+  color: #000000; }
+
+.cornsilk {
+  background: #FFF8DC;
+  color: #000000; }
+
+.lemonchiffon {
+  background: #FFFACD;
+  color: #000000; }
+
+.floralwhite {
+  background: #FFFAF0;
+  color: #000000; }
+
+.snow {
+  background: #FFFAFA;
+  color: #000000; }
+
+.yellow {
+  background: #FFFF00;
+  color: #000000; }
+
+.lightyellow {
+  background: #FFFFE0;
+  color: #000000; }
+
+.ivory {
+  background: #FFFFF0;
+  color: #000000; }
+
+.white {
+  background: #FFFFFF;
+  color: #000000; }

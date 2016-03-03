@@ -1,0 +1,22 @@
+{
+  "name": "css-colours",
+  "version": "0.9.0",
+  "description": "List of CSS colours and their corresponding hex and rgba codes",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chen Hui Jing <kakyou_tensai@yahoo.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huijing/css-colours"
+  }
+}
