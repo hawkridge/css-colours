@@ -16,10 +16,16 @@ body {
 
 header {
   text-align: center;
-  padding: 3rem; }
+  padding: 1rem; }
+  @media screen and (min-width: 480px) {
+    header {
+      padding: 2rem; } }
+  @media screen and (min-width: 800px) {
+    header {
+      padding: 3rem; } }
 
 footer {
-  text-align: right;
+  text-align: center;
   padding: 2rem 1rem 1rem; }
 
 h1 {
@@ -58,15 +64,21 @@ p {
   padding-top: 4ch;
   border: 1px solid rgba(0, 0, 0, 0.1); }
 
-.c-footer-left {
-  float: left; }
-  .c-footer-left > * {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 1rem; }
+.c-footer-left > * {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem; }
+  @media screen and (min-width: 540px) {
+    .c-footer-left > * {
+      float: left;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 1rem; } }
 
-.c-footer-right {
-  float: right; }
+@media screen and (min-width: 540px) {
+  .c-footer-right {
+    float: right; } }
 
 .black {
   background: #000000;

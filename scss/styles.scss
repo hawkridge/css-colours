@@ -27,11 +27,17 @@ body {
 
 header {
   text-align: center;
-  padding: 3rem;
+  padding: 1rem;
+  @media screen and (min-width: 480px) {
+    padding: 2rem;
+  }
+  @media screen and (min-width: 800px) {
+    padding: 3rem;
+  }
 }
 
 footer {
-    text-align: right;
+    text-align: center;
     padding: 2rem 1rem 1rem;
 }
 
@@ -66,17 +72,26 @@ p {
 }
 
 .c-footer-left {
-  float: left;
   > * {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    @media screen and (min-width: 540px) {
+      float: left;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 1rem;
+    }
   }
 }
 
 .c-footer-right {
-  float: right;
+  @media screen and (min-width: 540px) {
+    float: right;
+  }
 }
+
 @each $swatch, $colour in $css-colours {
   .#{$swatch} {
     background: $colour;
