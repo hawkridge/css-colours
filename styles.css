@@ -81,7 +81,7 @@ p {
     float: right; } }
 
 .black {
-  background: #000000;
+  background: #000;
   color: #ffffff; }
 
 .navy {
@@ -89,15 +89,15 @@ p {
   color: #ffffff; }
 
 .darkblue {
-  background: #00008B;
+  background: #00008b;
   color: #ffffff; }
 
 .mediumblue {
-  background: #0000CD;
+  background: #0000cd;
   color: #ffffff; }
 
 .blue {
-  background: #0000FF;
+  background: #00f;
   color: #000000; }
 
 .darkgreen {
@@ -113,35 +113,35 @@ p {
   color: #ffffff; }
 
 .darkcyan {
-  background: #008B8B;
+  background: #008b8b;
   color: #ffffff; }
 
 .deepskyblue {
-  background: #00BFFF;
+  background: #00bfff;
   color: #000000; }
 
 .darkturquoise {
-  background: #00CED1;
+  background: #00ced1;
   color: #ffffff; }
 
 .mediumspringgreen {
-  background: #00FA9A;
+  background: #00fa9a;
   color: #ffffff; }
 
 .lime {
-  background: #00FF00;
+  background: #0f0;
   color: #000000; }
 
 .springgreen {
-  background: #00FF7F;
+  background: #00ff7f;
   color: #000000; }
 
 .aqua {
-  background: #00FFFF;
+  background: #0ff;
   color: #000000; }
 
 .cyan {
-  background: #00FFFF;
+  background: #0ff;
   color: #000000; }
 
 .midnightblue {
@@ -149,75 +149,75 @@ p {
   color: #ffffff; }
 
 .dodgerblue {
-  background: #1E90FF;
+  background: #1e90ff;
   color: #000000; }
 
 .lightseagreen {
-  background: #20B2AA;
+  background: #20b2aa;
   color: #ffffff; }
 
 .forestgreen {
-  background: #228B22;
+  background: #228b22;
   color: #ffffff; }
 
 .seagreen {
-  background: #2E8B57;
+  background: #2e8b57;
   color: #ffffff; }
 
 .darkslategray {
-  background: #2F4F4F;
+  background: #2f4f4f;
   color: #ffffff; }
 
 .darkslategrey {
-  background: #2F4F4F;
+  background: #2f4f4f;
   color: #ffffff; }
 
 .limegreen {
-  background: #32CD32;
+  background: #32cd32;
   color: #000000; }
 
 .mediumseagreen {
-  background: #3CB371;
+  background: #3cb371;
   color: #ffffff; }
 
 .turquoise {
-  background: #40E0D0;
+  background: #40e0d0;
   color: #000000; }
 
 .royalblue {
-  background: #4169E1;
+  background: #4169e1;
   color: #000000; }
 
 .steelblue {
-  background: #4682B4;
+  background: #4682b4;
   color: #ffffff; }
 
 .darkslateblue {
-  background: #483D8B;
+  background: #483d8b;
   color: #ffffff; }
 
 .mediumturquoise {
-  background: #48D1CC;
+  background: #48d1cc;
   color: #000000; }
 
 .indigo {
-  background: #4B0082;
+  background: #4b0082;
   color: #ffffff; }
 
 .darkolivegreen {
-  background: #556B2F;
+  background: #556b2f;
   color: #ffffff; }
 
 .cadetblue {
-  background: #5F9EA0;
+  background: #5f9ea0;
   color: #000000; }
 
 .cornflowerblue {
-  background: #6495ED;
+  background: #6495ed;
   color: #000000; }
 
 .mediumaquamarine {
-  background: #66CDAA;
+  background: #66cdaa;
   color: #000000; }
 
 .dimgray {
@@ -229,11 +229,11 @@ p {
   color: #ffffff; }
 
 .slateblue {
-  background: #6A5ACD;
+  background: #6a5acd;
   color: #000000; }
 
 .olivedrab {
-  background: #6B8E23;
+  background: #6b8e23;
   color: #ffffff; }
 
 .slategray {
@@ -245,27 +245,27 @@ p {
   color: #000000; }
 
 .lightslategray {
-  background: #778899;
+  background: #789;
   color: #000000; }
 
 .lightslategrey {
-  background: #778899;
+  background: #789;
   color: #000000; }
 
 .mediumslateblue {
-  background: #7B68EE;
+  background: #7b68ee;
   color: #000000; }
 
 .lawngreen {
-  background: #7CFC00;
+  background: #7cfc00;
   color: #ffffff; }
 
 .chartreuse {
-  background: #7FFF00;
+  background: #7fff00;
   color: #000000; }
 
 .aquamarine {
-  background: #7FFFD4;
+  background: #7fffd4;
   color: #000000; }
 
 .maroon {
@@ -289,381 +289,381 @@ p {
   color: #000000; }
 
 .skyblue {
-  background: #87CEEB;
+  background: #87ceeb;
   color: #000000; }
 
 .lightskyblue {
-  background: #87CEFA;
+  background: #87cefa;
   color: #000000; }
 
 .blueviolet {
-  background: #8A2BE2;
+  background: #8a2be2;
   color: #000000; }
 
 .darkred {
-  background: #8B0000;
+  background: #8b0000;
   color: #ffffff; }
 
 .darkmagenta {
-  background: #8B008B;
+  background: #8b008b;
   color: #ffffff; }
 
 .saddlebrown {
-  background: #8B4513;
+  background: #8b4513;
   color: #ffffff; }
 
 .darkseagreen {
-  background: #8FBC8F;
+  background: #8fbc8f;
   color: #000000; }
 
 .lightgreen {
-  background: #90EE90;
+  background: #90ee90;
   color: #000000; }
 
 .mediumpurple {
-  background: #9370DB;
+  background: #9370db;
   color: #000000; }
 
 .darkviolet {
-  background: #9400D3;
+  background: #9400d3;
   color: #ffffff; }
 
 .palegreen {
-  background: #98FB98;
+  background: #98fb98;
   color: #000000; }
 
 .darkorchid {
-  background: #9932CC;
+  background: #9932cc;
   color: #ffffff; }
 
 .yellowgreen {
-  background: #9ACD32;
+  background: #9acd32;
   color: #000000; }
 
 .sienna {
-  background: #A0522D;
+  background: #a0522d;
   color: #ffffff; }
 
 .brown {
-  background: #A52A2A;
+  background: #a52a2a;
   color: #ffffff; }
 
 .darkgray {
-  background: #A9A9A9;
+  background: #a9a9a9;
   color: #000000; }
 
 .darkgrey {
-  background: #A9A9A9;
+  background: #a9a9a9;
   color: #000000; }
 
 .lightblue {
-  background: #ADD8E6;
+  background: #add8e6;
   color: #000000; }
 
 .greenyellow {
-  background: #ADFF2F;
+  background: #adff2f;
   color: #000000; }
 
 .paleturquoise {
-  background: #AFEEEE;
+  background: #afeeee;
   color: #000000; }
 
 .lightsteelblue {
-  background: #B0C4DE;
+  background: #b0c4de;
   color: #000000; }
 
 .powderblue {
-  background: #B0E0E6;
+  background: #b0e0e6;
   color: #000000; }
 
 .firebrick {
-  background: #B22222;
+  background: #b22222;
   color: #ffffff; }
 
 .darkgoldenrod {
-  background: #B8860B;
+  background: #b8860b;
   color: #ffffff; }
 
 .mediumorchid {
-  background: #BA55D3;
+  background: #ba55d3;
   color: #000000; }
 
 .rosybrown {
-  background: #BC8F8F;
+  background: #bc8f8f;
   color: #000000; }
 
 .darkkhaki {
-  background: #BDB76B;
+  background: #bdb76b;
   color: #000000; }
 
 .silver {
-  background: #C0C0C0;
+  background: #c0c0c0;
   color: #000000; }
 
 .mediumvioletred {
-  background: #C71585;
+  background: #c71585;
   color: #ffffff; }
 
 .indianred {
-  background: #CD5C5C;
+  background: #cd5c5c;
   color: #000000; }
 
 .peru {
-  background: #CD853F;
+  background: #cd853f;
   color: #000000; }
 
 .chocolate {
-  background: #D2691E;
+  background: #d2691e;
   color: #ffffff; }
 
 .tan {
-  background: #D2B48C;
+  background: #d2b48c;
   color: #000000; }
 
 .lightgray {
-  background: #D3D3D3;
+  background: #d3d3d3;
   color: #000000; }
 
 .lightgrey {
-  background: #D3D3D3;
+  background: #d3d3d3;
   color: #000000; }
 
 .thistle {
-  background: #D8BFD8;
+  background: #d8bfd8;
   color: #000000; }
 
 .orchid {
-  background: #DA70D6;
+  background: #da70d6;
   color: #000000; }
 
 .goldenrod {
-  background: #DAA520;
+  background: #daa520;
   color: #ffffff; }
 
 .palevioletred {
-  background: #DB7093;
+  background: #db7093;
   color: #000000; }
 
 .crimson {
-  background: #DC143C;
+  background: #dc143c;
   color: #ffffff; }
 
 .gainsboro {
-  background: #DCDCDC;
+  background: #dcdcdc;
   color: #000000; }
 
 .plum {
-  background: #DDA0DD;
+  background: #dda0dd;
   color: #000000; }
 
 .burlywood {
-  background: #DEB887;
+  background: #deb887;
   color: #000000; }
 
 .lightcyan {
-  background: #E0FFFF;
+  background: #e0ffff;
   color: #000000; }
 
 .lavender {
-  background: #E6E6FA;
+  background: #e6e6fa;
   color: #000000; }
 
 .darksalmon {
-  background: #E9967A;
+  background: #e9967a;
   color: #000000; }
 
 .violet {
-  background: #EE82EE;
+  background: #ee82ee;
   color: #000000; }
 
 .palegoldenrod {
-  background: #EEE8AA;
+  background: #eee8aa;
   color: #000000; }
 
 .lightcoral {
-  background: #F08080;
+  background: #f08080;
   color: #000000; }
 
 .khaki {
-  background: #F0E68C;
+  background: #f0e68c;
   color: #000000; }
 
 .aliceblue {
-  background: #F0F8FF;
+  background: #f0f8ff;
   color: #000000; }
 
 .honeydew {
-  background: #F0FFF0;
+  background: #f0fff0;
   color: #000000; }
 
 .azure {
-  background: #F0FFFF;
+  background: #f0ffff;
   color: #000000; }
 
 .sandybrown {
-  background: #F4A460;
+  background: #f4a460;
   color: #000000; }
 
 .wheat {
-  background: #F5DEB3;
+  background: #f5deb3;
   color: #000000; }
 
 .beige {
-  background: #F5F5DC;
+  background: #f5f5dc;
   color: #000000; }
 
 .whitesmoke {
-  background: #F5F5F5;
+  background: #f5f5f5;
   color: #000000; }
 
 .mintcream {
-  background: #F5FFFA;
+  background: #f5fffa;
   color: #000000; }
 
 .ghostwhite {
-  background: #F8F8FF;
+  background: #f8f8ff;
   color: #000000; }
 
 .salmon {
-  background: #FA8072;
+  background: #fa8072;
   color: #000000; }
 
 .antiquewhite {
-  background: #FAEBD7;
+  background: #faebd7;
   color: #000000; }
 
 .linen {
-  background: #FAF0E6;
+  background: #faf0e6;
   color: #000000; }
 
 .lightgoldenrodyellow {
-  background: #FAFAD2;
+  background: #fafad2;
   color: #000000; }
 
 .oldlace {
-  background: #FDF5E6;
+  background: #fdf5e6;
   color: #000000; }
 
 .red {
-  background: #FF0000;
+  background: #f00;
   color: #000000; }
 
 .fuchsia {
-  background: #FF00FF;
+  background: #f0f;
   color: #000000; }
 
 .magenta {
-  background: #FF00FF;
+  background: #f0f;
   color: #000000; }
 
 .deeppink {
-  background: #FF1493;
+  background: #ff1493;
   color: #000000; }
 
 .orangered {
-  background: #FF4500;
+  background: #ff4500;
   color: #000000; }
 
 .tomato {
-  background: #FF6347;
+  background: #ff6347;
   color: #000000; }
 
 .hotpink {
-  background: #FF69B4;
+  background: #ff69b4;
   color: #000000; }
 
 .coral {
-  background: #FF7F50;
+  background: #ff7f50;
   color: #000000; }
 
 .darkorange {
-  background: #FF8C00;
+  background: #ff8c00;
   color: #000000; }
 
 .lightsalmon {
-  background: #FFA07A;
+  background: #ffa07a;
   color: #000000; }
 
 .orange {
-  background: #FFA500;
+  background: #ffa500;
   color: #000000; }
 
 .lightpink {
-  background: #FFB6C1;
+  background: #ffb6c1;
   color: #000000; }
 
 .pink {
-  background: #FFC0CB;
+  background: #ffc0cb;
   color: #000000; }
 
 .gold {
-  background: #FFD700;
+  background: #ffd700;
   color: #000000; }
 
 .peachpuff {
-  background: #FFDAB9;
+  background: #ffdab9;
   color: #000000; }
 
 .navajowhite {
-  background: #FFDEAD;
+  background: #ffdead;
   color: #000000; }
 
 .moccasin {
-  background: #FFE4B5;
+  background: #ffe4b5;
   color: #000000; }
 
 .bisque {
-  background: #FFE4C4;
+  background: #ffe4c4;
   color: #000000; }
 
 .mistyrose {
-  background: #FFE4E1;
+  background: #ffe4e1;
   color: #000000; }
 
 .blanchedalmond {
-  background: #FFEBCD;
+  background: #ffebcd;
   color: #000000; }
 
 .papayawhip {
-  background: #FFEFD5;
+  background: #ffefd5;
   color: #000000; }
 
 .lavenderblush {
-  background: #FFF0F5;
+  background: #fff0f5;
   color: #000000; }
 
 .seashell {
-  background: #FFF5EE;
+  background: #fff5ee;
   color: #000000; }
 
 .cornsilk {
-  background: #FFF8DC;
+  background: #fff8dc;
   color: #000000; }
 
 .lemonchiffon {
-  background: #FFFACD;
+  background: #fffacd;
   color: #000000; }
 
 .floralwhite {
-  background: #FFFAF0;
+  background: #fffaf0;
   color: #000000; }
 
 .snow {
-  background: #FFFAFA;
+  background: #fffafa;
   color: #000000; }
 
 .yellow {
-  background: #FFFF00;
+  background: #ff0;
   color: #000000; }
 
 .lightyellow {
-  background: #FFFFE0;
+  background: #ffffe0;
   color: #000000; }
 
 .ivory {
-  background: #FFFFF0;
+  background: #fffff0;
   color: #000000; }
 
 .white {
-  background: #FFFFFF;
+  background: #fff;
   color: #000000; }
