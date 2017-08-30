@@ -565,6 +565,11 @@
     "rgba":"rgba(147,112,219,1)"
   },
   {
+    "name":"rebeccapurple",
+    "hex":"#663399",
+    "rgba":"rgba(102,51,153,1)"
+  },
+  {
     "name":"blueviolet",
     "hex":"#8A2BE2",
     "rgba":"rgba(138,43,226,1)"
